@@ -1,0 +1,74 @@
+.full-page {
+  width: 100vw;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #f4f4f4;
+}
+
+#addItemForm label {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+#addItemForm input[type="text"],
+#addItemForm input[type="file"],
+#addItemForm select,
+#addItemForm textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+#addItemForm button {
+  margin-top: 2rem;
+  background-color: #008080;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Preview image formatting */
+#preview {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+/* Header & Navigation */
+header {
+  background-color: #008080;
+  padding: 1rem 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #006666;
+}
