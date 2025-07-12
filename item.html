@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Item Details - ReWear</title>
+  <link rel="stylesheet" href="item.css">
+</head>
+<body>
+  <header>
+    <h1>ReWear</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="browse.html">Browse Items</a>
+      <a href="dashboard.html">Dashboard</a>
+      <a href="login.html">Logout</a>
+    </nav>
+  </header>
+
+  <main class="item-detail-page">
+    <section class="item-detail">
+      <div class="image-gallery">
+        <img id="p6.jpg" src="https://via.placeholder.com/400" alt="Item Image" />
+        <div class="thumbnails">
+          <img src="p11.jpg" onclick="setMainImage(this)" alt="Thumb 1">
+          <img src="p6.jpg" onclick="setMainImage(this)" alt="Thumb 2">
+        </div>
+      </div>
+      <div class="details">
+        <h2 id="itemTitle">Denim Jacket</h2>
+        <p id="itemDescription">A stylish and durable denim jacket, barely used. Perfect for casual outings.</p>
+        <p><strong>Category:</strong> Tops</p>
+        <p><strong>Type:</strong> Jacket</p>
+        <p><strong>Size:</strong> M</p>
+        <p><strong>Condition:</strong> Like New</p>
+        <p><strong>Tags:</strong> denim, casual, outerwear</p>
+        <p><strong>Uploaded By:</strong> user@example.com</p>
+        <p><strong>Status:</strong> Available</p>
+
+        <div class="action-buttons">
+          <button onclick="alert('Swap request sent!')">Swap Request</button>
+          <button onclick="alert('Redeemed via points!')">Redeem via Points</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function setMainImage(el) {
+      document.getElementById('p6.jpg').src = el.src;
+    }
+  </script>
+</body>
+</html>

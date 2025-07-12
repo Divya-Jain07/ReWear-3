@@ -1,0 +1,58 @@
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+header {
+  background-color: #008080;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+nav a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+}
+.landing {
+  padding: 2rem;
+  text-align: center;
+  background-color: #eef;
+}
+.cta-buttons button {
+  margin: 1rem;
+  padding: 1rem 2rem;
+  background-color: #008080;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.featured {
+  padding: 2rem;
+}
+
+.carousel div {
+  min-width: 200px;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 5px;
+  padding: 40px;
+  margin: 30px;
+}
+
+
+.row img {
+    width: 210px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    padding: 0px;
+}
