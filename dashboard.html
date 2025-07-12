@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Dashboard - ReWear</title>
+  <link rel="stylesheet" href="dashbord.css">
+</head>
+<body>
+  <header>
+    <h1>ReWear Dashboard</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="add-item.html">Add New Item</a>
+      <a href="login.html">Logout</a>
+    </nav>
+  </header>
+
+  <main class="dashboard-section">
+    <h2>Welcome, <span id="userName"></span>!</h2>
+    <p>Email: <span id="userEmail"></span></p>
+
+    <section class="item-display">
+      <h3>Your First Uploaded Item </h3>
+      <div class="row">
+       <img src="p2.jpg" alt="Description" />
+       </div>
+  
+      <img id="uploadedItemImage" alt="Uploaded Clothing Item" style="display:none; max-width: 300px; border-radius: 10px;">
+    </section>
+
+    <section class="upload-new">
+      <h3>Add Another Item</h3>
+      <form id="uploadForm">
+        <label for="newItemImage">Upload Clothing Image:</label>
+        <input type="file" id="newItemImage" accept="image/*" required>
+        <img id="newPreview" src="#" style="display:none; max-width: 150px; border-radius: 8px; margin: 1rem 0;">
+        <button type="submit">Save Item</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="dasboard.js"></script>
+</body>
+</html>

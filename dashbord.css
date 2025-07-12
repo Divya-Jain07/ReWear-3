@@ -1,0 +1,39 @@
+.dashboard-section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+.dashboard-section h2 {
+  margin-bottom: 0.5rem;
+}
+.item-display, .upload-new {
+  margin-top: 2rem;
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+.item-display img, .upload-new img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+.upload-new input[type="file"] {
+  margin-bottom: 1rem;
+}
+.upload-new button {
+  padding: 0.6rem 1.2rem;
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.row img {
+    width: 210px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    padding: 0px;
+}
