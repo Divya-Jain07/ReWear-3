@@ -1,0 +1,41 @@
+.browse {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+}
+.item-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.item-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+.item-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.item-card button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #008080;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.row img {
+    width: 210px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    padding: 0px;
+}
